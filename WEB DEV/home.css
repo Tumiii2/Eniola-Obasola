@@ -1,0 +1,56 @@
+.header {
+padding: 60px;
+text-align: center;
+background-color:skyblue;
+font-size: 30px;
+
+}
+
+.content {
+    width: 300px;
+    background-color: magenta;
+    border: 5px solid brown;
+    padding: 50px;
+    margin: 20px;
+    color:white;
+    background-image: url(./images/download.jpg);
+    background-size: cover;
+    
+}
+
+.secondcontent{
+    width: 300px;
+    background-color: magenta;
+    border: 5px solid brown;
+    padding: 50px;
+    margin: 20px;
+    font-family: sans-serif;
+    color:white;
+    background-image: url(./images/download.jpg);
+    background-size: cover;
+}
+
+.thirdcontent{
+    width: 300px;
+    background-color: magenta;
+    border: 5px solid brown;
+    padding: 50px;
+    margin: 20px;
+    font-family: serif;
+    color: white;
+    background-image: url(./images/download.jpg);
+    background-size: cover;
+}
+   
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+}
+
